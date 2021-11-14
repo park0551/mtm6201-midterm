@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sugar &#38; Spice Ice Cream</title>
     <link rel="stylesheet" href="css/main.css">
+    <!-- google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <!-- icon fonts link -->
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
 </head>
+
 <body>
     <div class="container">
         <header>
             <nav class="nav">
-                <ul class="navi">
-                    <!-- social media icons (remember to fix this****)-------------FIX ME--------->
-                    <li><a href="#"><img src="" alt="instagram"></a></li>
-                    <li><a href="#"><img src="" alt="twitter"></a></li>
-                    <li><a href="#"><img src="" alt="facebook"></a></li>
-                    <!-- navigation items -->
+                <div>
+                    <ul class="socials">
+                        <li><a href="https://www.instagram.com/"><i     class="im im-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com/"><i class="im     im-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/"><i  class="im im-facebook"></i></a></li>
+                    </ul>
+                </div>
+                <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="#">Order Online</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <!-- cart icon (remember to fix this****)----------------------FIX ME---------->
-                    <li><a href="#"><img src="" alt="shopping cart"></a></li>
                 </ul>
+                <a href="#"><i class="im im-shopping-cart"></i></a>
             </nav>
 
             <div class="banner">
@@ -48,12 +57,72 @@
                     <div class="scoop4"><img src="#" alt="silly ice cream scoop"></div>
                 </div>
                 <p class="mood">
-                    If you're finding it hard to pick, let the Mood Scoops help! Click on any scoop to reveal a curated flavour. We rotate the selections every week based on what we're currently scooping and loving.
+                    If you're finding it hard to pick, let the Mood Scoops help! Click on any scoop to reveal a curated
+                    flavour. We rotate the selections every week based on what we're currently scooping and loving.
                 </p>
+            </section>
+
+            <!-- adds a section for the Ice Cream Bars Banner -->
+            <section class="icecreambars">
+                <div class="bars">
+                    <h2>New
+                        Ice Cream Bars
+                    </h2>
+                    <a href="./menu.html" class="fullmenu-btn">See The Full Menu</a>
+                </div>
+            </section>
+
+            <!-- adds a section for the Flavour of the Week -->
+            <section class="fotw">
+                <div class="flavour">
+                    <h2>Flavour of the Week</h2>
+                    <img src="#" alt="chili chocolate ice cream">
+                    <div class="fotwinfo">
+                        <h3>Chili Chocolate</h3>
+                        <p>
+                            Embrace the chilly temperatures with our new Mexican Chili Cocoa inspired ice cream!
+                        </p>
+                        <p>
+                            Our Chili Chocolate ice cream is made with a perfectly sweet and rustic chocolate base, blended with just the right amount of spice from cinnamon (really putting the "Spice" in Sugar &#38; Spice!). Paired with our homemade GF dark chocolate dipped waffle cone, we think this is the perfect Winter treat!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- adds a section for the Vision -->
+            <section class="visionsec">
+                <div class="vision">
+                    <h2>The Sugar &#38; Spice Vision</h2>
+                    <img src="#" alt="sugar and spice double scoop logo">
+                    <p>We believe ice cream should be just as inclusive as it is delicious. We know our community is vast and diverse, and with that comes a multitude of family dynamics, diets, and other considerations. Whether you're a single parent, a successful business person, or a student, we're certain there's a flavour here for you and your many different moods!</p>
+                </div>
             </section>
         </main>
 
-    </div> <!--end of .container-->
-    
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-socials">
+                <ul class="footer-list">
+                    <li><a href="#"><i class="im im-instagram"></i></a></li>
+                    <li><a href="#"><i class="im im-twitter"></i></a></li>
+                    <li><a href="#"><i class="im im-facebook"></i></a></li>
+                </ul>
+                <p>Follow Us for Updates</p>
+                </div>
+                <div class="footer-copy">
+                    <img src="#" alt="sugar and spice double scoop logo">
+                    <p>&copy; Sugar &#38; Spice Ice Cream, 2021. All rights reserved.</p>
+                </div>
+                <div class="footer-contact">
+                    <a href="./contact.html"><i class="im im-mail"></i></a>
+                    <a href="./contact.html"><p>Contact Us<i class="im im-angle-right"></i></p></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--end of .container-->
+
 </body>
+
 </html>
