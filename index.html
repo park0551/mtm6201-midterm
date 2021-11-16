@@ -16,14 +16,14 @@
 </head>
 
 <body>
-    <div class="container">
+    <div>
         <header>
             <nav class="nav">
                 <div>
                     <ul class="socials">
-                        <li><a href="https://www.instagram.com/"><i     class="im im-instagram"></i></a></li>
-                        <li><a href="https://www.twitter.com/"><i class="im     im-twitter"></i></a></li>
-                        <li><a href="https://www.facebook.com/"><i  class="im im-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="im im-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com/"><i class="im im-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/"><i class="im im-facebook"></i></a></li>
                     </ul>
                 </div>
                 <ul class="nav-links">
@@ -33,14 +33,14 @@
                     <li><a href="#">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <a href="#"><i class="im im-shopping-cart"></i></a>
+                <a href="#" class="cart"><i class="im im-shopping-cart"></i></a>
             </nav>
 
             <div class="banner">
                 <div class="banner-content">
-                    <a href="#"><img src="#" alt="sugar and spice logo"></a>
+                    <a href="#"><img src="./images/sugar-and-spice-logo.svg" alt="sugar and spice logo"></a>
                     <h1>Scoops, Pints, and a little Sugar &#38; Spice.</h1>
-                    <a href="#" target="blank" class="explore-btn">Explore Our Online Shop</a>
+                    <a href="#" target="blank" class="button">Explore Our Online Shop</a>
                 </div>
             </div>
         </header>
@@ -51,40 +51,45 @@
                 <h2>What's Today's Mood?</h2>
                 <!-- adds a parent div for the Scoops, and child divs for each individual -->
                 <div class="scoops">
-                    <div class="scoop1"><img src="#" alt="calm ice cream scoop"></div>
-                    <div class="scoop2"><img src="#" alt="mad ice cream scoop"></div>
-                    <div class="scoop3"><img src="#" alt="sleepy ice cream scoop"></div>
-                    <div class="scoop4"><img src="#" alt="silly ice cream scoop"></div>
+                    <img src="./images/sugar-and-spice-calm-scoop.svg" class="calm" alt="calm ice cream scoop">
+                    <img src="./images/sugar-and-spice-mad-scoop.svg" class="mad" alt="mad ice cream scoop">
+                    <img src="./images/sugar-and-spice-sleepy-scoop.svg" class="sleepy" alt="sleepy ice cream scoop">
+                    <img src="./images/sugar-and-spice-silly-scoop.svg" class="silly" alt="silly ice cream scoop">
                 </div>
-                <p class="mood">
-                    If you're finding it hard to pick, let the Mood Scoops help! Click on any scoop to reveal a curated
-                    flavour. We rotate the selections every week based on what we're currently scooping and loving.
-                </p>
             </section>
 
             <!-- adds a section for the Ice Cream Bars Banner -->
-            <section class="icecreambars">
+            <div class="icecreambars">
                 <div class="bars">
-                    <h2>New
-                        Ice Cream Bars
-                    </h2>
-                    <a href="./menu.html" class="fullmenu-btn">See The Full Menu</a>
+                    <h2>New</h2>
+                    <h2>Ice Cream Bars</h2>
+                    <a href="./menu.html" class="button">See The Full Menu</a>
                 </div>
-            </section>
+            </div>
 
             <!-- adds a section for the Flavour of the Week -->
-            <section class="fotw">
-                <div class="flavour">
+            <section>
+                <div class="fotw">
                     <h2>Flavour of the Week</h2>
-                    <img src="#" alt="chili chocolate ice cream">
-                    <div class="fotwinfo">
-                        <h3>Chili Chocolate</h3>
-                        <p>
-                            Embrace the chilly temperatures with our new Mexican Chili Cocoa inspired ice cream!
-                        </p>
-                        <p>
-                            Our Chili Chocolate ice cream is made with a perfectly sweet and rustic chocolate base, blended with just the right amount of spice from cinnamon (really putting the "Spice" in Sugar &#38; Spice!). Paired with our homemade GF dark chocolate dipped waffle cone, we think this is the perfect Winter treat!
-                        </p>
+                    <div class="flavour">
+                        <img src="./images/fotw.png" 
+                        srcset="./images/fotw-574_x_438.png,
+                                ./images/fotw-861_x_657.png 1.5x,
+                                ./images/fotw-1148_x_876.png 2x,
+                                ./images/fotw-1722_x_1314.png 3x"
+                        alt="chili chocolate ice cream">
+                        <div class="fotwinfo">
+                            <h3>Chili Chocolate</h3>
+                            <p>
+                                Embrace the chilly temperatures with our new Mexican Chili Cocoa inspired ice cream!
+                            </p>
+                            <p>
+                                Our Chili Chocolate ice cream is made with a perfectly sweet and rustic chocolate base,
+                                blended with just the right amount of spice from cinnamon (really putting the "Spice" in
+                                Sugar &#38; Spice!). Paired with our homemade GF dark chocolate dipped waffle cone, we
+                                think this is the perfect Winter treat!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -92,9 +97,13 @@
             <!-- adds a section for the Vision -->
             <section class="visionsec">
                 <div class="vision">
+                    <img src="./images/sugar-and-spice-double-scoop.png" alt="sugar and spice double scoop logo">
                     <h2>The Sugar &#38; Spice Vision</h2>
-                    <img src="#" alt="sugar and spice double scoop logo">
-                    <p>We believe ice cream should be just as inclusive as it is delicious. We know our community is vast and diverse, and with that comes a multitude of family dynamics, diets, and other considerations. Whether you're a single parent, a successful business person, or a student, we're certain there's a flavour here for you and your many different moods!</p>
+                    
+                    <p>We believe ice cream should be just as inclusive as it is delicious. We know our community is
+                        vast and diverse, and with that comes a multitude of family dynamics, diets, and other
+                        considerations. Whether you're a single parent, a successful business person, or a student,
+                        we're certain there's a flavour here for you and your many different moods! </p>
                 </div>
             </section>
         </main>
@@ -103,25 +112,27 @@
         <footer class="footer">
             <div class="footer-content">
                 <div class="footer-socials">
-                <ul class="footer-list">
-                    <li><a href="#"><i class="im im-instagram"></i></a></li>
-                    <li><a href="#"><i class="im im-twitter"></i></a></li>
-                    <li><a href="#"><i class="im im-facebook"></i></a></li>
-                </ul>
-                <p>Follow Us for Updates</p>
+                    <ul class="footer-list">
+                        <li><a href="https://www.instagram.com/"><i class="im im-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com/"><i class="im im-twitter"></i></a></li>
+                        <li><a href="https://facebook.com/"><i class="im im-facebook"></i></a></li>
+                    </ul>
+                    <p>Follow Us for Updates</p>
                 </div>
                 <div class="footer-copy">
-                    <img src="#" alt="sugar and spice double scoop logo">
-                    <p>&copy; Sugar &#38; Spice Ice Cream, 2021. All rights reserved.</p>
+                    <img src="./images/sugar-and-spice-double-scoop.png"
+                        alt="sugar and spice double scoop logo">
+                    <p>&copy; Sugar &#38; Spice Ice Cream, 2021. All photos from Pexels.</p>
                 </div>
                 <div class="footer-contact">
-                    <a href="./contact.html"><i class="im im-mail"></i></a>
-                    <a href="./contact.html"><p>Contact Us<i class="im im-angle-right"></i></p></a>
+                    <a href="./contact.html" class="mail"><i class="im im-mail"></i></a>
+                    <a href="./contact.html">
+                        <p>Contact Us<i class="im im-angle-right"></i></p>
+                    </a>
                 </div>
             </div>
         </footer>
     </div>
-    <!--end of .container-->
 
 </body>
 
