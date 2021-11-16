@@ -247,6 +247,12 @@ h2{
     margin: 5rem auto;
 }
 
+.button:hover{
+    background-color: #E27691;
+    color: #E9F8FE;
+    transition: all .5s ease 0s;
+}
+
 .button{
     background-color:#E9F8FE;
     border: none;
@@ -442,6 +448,23 @@ a .im-angle-right{
     padding: .5rem;
     margin: 1rem auto;
     text-align: center;
+}
+
+/* adds media query to grid to support smaller screens */
+
+@media screen and (max-width: 740px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
 }
 
 /* ----------------styling the Contact Us page------------------- */
